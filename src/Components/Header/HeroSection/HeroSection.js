@@ -12,7 +12,8 @@ const HeroSection = () => {
                 <Row className='border border-4' style={{ height: "100%" }} >
                     {/* this col will contain the text of this section and 2 buttons */}
                     <Col lg={5} className=" d-flex flex-column justify-content-center  text-start " >
-                        <h1 style={{ color: "#152427" }} className="fw-bolder">We’re a <br />creative design <br /> agency.</h1>
+                        <h1 style={{ color: "#152427" }} className="fw-bolder d-none d-lg-block">We’re a <br />creative design <br /> agency.</h1>
+                        <h3 style={{ color: "#152427" }} className="fw-bolder  d-lg-none">We’re a creative design  agency.</h3>
                         <h6 className='fs-6' style={{ color: "#575D5E" }}>A brilliant, modular agency template for startup’s build yours toady.</h6>
                         <div>
                             <Button variant='signup rounded-pill fs-6 py-3 px-5 signup fw-bold'>Get in touch</Button>
