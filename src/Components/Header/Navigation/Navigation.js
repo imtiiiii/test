@@ -35,7 +35,7 @@ const Navigation = () => {
                             <Nav.Link href="#" style={{ color: "575D5E" }}>About</Nav.Link>
                             <Nav.Link href="#" style={{ color: "575D5E" }}>Blog</Nav.Link>
                             <Nav.Link href="#" style={{ color: "575D5E" }}>Contact</Nav.Link>
-                            <Button variant='signup' className='rounded-pill ms-5 px-5 py-3 signup'>Sign Up</Button>
+                            <Button variant='signup' className='rounded-pill ms-5 px-5 py-3 signup d-lg-inline d-md-none d-sm-none d-none' >Sign Up</Button>
 
                         </Nav>
                     </Navbar.Collapse>
