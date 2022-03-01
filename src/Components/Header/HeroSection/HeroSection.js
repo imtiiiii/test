@@ -4,6 +4,9 @@ import bgimg from '../../../img/header/Ellipse 4024.png'
 import img1 from '../../../img/header/Rectangle 6038.png'
 import img2 from '../../../img/header/Rectangle 6039.png'
 import img3 from '../../../img/header/Rectangle 6040.png'
+import img4 from '../../../img/header/Rectangle 6038 (1).png'
+import img5 from '../../../img/header/Rectangle 6039 (1).png'
+import img6 from '../../../img/header/Rectangle 6040 (1).png'
 import playButton from '../../../img/header/play button.png'
 const HeroSection = () => {
     return (
@@ -25,7 +28,7 @@ const HeroSection = () => {
                     </Col>
                     {/* this secion will contain 1bg image and 3 image */}
                     {/* here i will use css-position property because here i will be using a picture as bg so using position property i can keep 3 images over the bg image */}
-                    <Col lg={7} className="" style={{ position: "relative" }} >
+                    <Col lg={7} className="border border-2" style={{ position: "relative" }} >
                         <div className=" d-flex justify-content-center .align-items-center">
                             <img alt="bg" src={bgimg} style={{ maxWidth: "100%", maxHeight: "100%" }} />
                         </div>
@@ -34,20 +37,23 @@ const HeroSection = () => {
                                 position: "absolute",
                                 top: "100px", left: "40px",
                             }}    >
-                                <img alt="heroimage" src={img1} style={{ maxWidth: "150px" }} />
+                                <img alt="heroimage" src={img1} style={{ maxWidth: "150px" }} className="d-lg-block d-none" />
+                                <img alt="heroimage" src={img4} style={{ maxWidth: "100px" }} className="d-lg-none d-block" />
                             </Col>
                             <Col lg={3} style={{
                                 position: "absolute",
                                 top: "150px",
                                 left: "200px"
                             }} >
-                                <img alt="heroimage" src={img2} style={{ maxWidth: "150px" }} />
+                                <img alt="heroimage" src={img2} style={{ maxWidth: "150px" }} className="d-lg-block d-none" />
+                                <img alt="heroimage" src={img5} style={{ maxWidth: "100px" }} className="d-lg-none d-block" />
                             </Col>
                             <Col lg={3} style={{
                                 position: "absolute",
                                 top: "100px", left: "360px"
                             }} >
-                                <img alt="heroimage" src={img3} style={{ maxWidth: "150px" }} />
+                                <img alt="heroimage" src={img3} style={{ maxWidth: "150px" }} className="d-lg-block d-none" />
+                                <img alt="heroimage" src={img6} style={{ maxWidth: "100px" }} className="d-block d-lg-none" />
                             </Col>
                         </Row>
                     </Col>
