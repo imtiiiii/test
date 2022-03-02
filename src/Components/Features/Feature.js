@@ -14,9 +14,9 @@ const Feature = (props) => {
 
             <Col lg={4} style={{ border: "1.5px solid #CECECE", height: "400px", }} className={cnt === 2 ? "rounded-circle py-5 d-lg-flex justify-content-center align-items-center test shadow-lg" : "rounded-circle py-5 d-lg-flex justify-content-center align-items-center od test"} >
                 <Container className=' '>
-                    <img alt="logo" src={props.item.logo} />
-                    <h4>{props.item.title}</h4>
-                    <h6>{props.item.details}</h6>
+                    <img alt="logo" src={props.item.logo} className="my-4" />
+                    <h4 className='my-3'>{props.item.title}</h4>
+                    <h6 className=''>{props.item.details}</h6>
                 </Container>
             </Col>
         </>
