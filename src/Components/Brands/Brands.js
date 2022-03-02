@@ -10,7 +10,7 @@ const Brands = () => {
     return (
         <>
 
-            <Container className='    py-5 my-5 rounded-pill ' style={{ backgroundColor: "#E2EDDF" }}>
+            <Container className=' py-5 my-5 rounded-pill ' style={{ backgroundColor: "#E2EDDF" }}>
 
                 <Row className='  d-flex justify-content-center py-2 align-items-center'>
                     <Col lg={2} md={6} sm={6} className="py-2 ">
