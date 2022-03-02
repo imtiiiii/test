@@ -16,7 +16,7 @@ const Processes = () => {
                             <div className='d-flex flex-column justify-content-center '>
                                 <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>01.</h1>
                             </div>
-                            <div className='d-flex flex-column justify-content-center  '>
+                            <div className='d-flex flex-column justify-content-center  w-50 '>
                                 <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>Project idea</h3>
                                 <h4 className='fs-5 text-decoration-underline ' style={{ color: "#575D5E" }}>Learn More</h4>
                             </div>
@@ -34,7 +34,7 @@ const Processes = () => {
                             <div className='d-flex flex-column justify-content-center'>
                                 <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>02.</h1>
                             </div>
-                            <div className='d-flex flex-column justify-content-center   '>
+                            <div className='d-flex flex-column justify-content-center   w-50 '>
                                 <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>Brainstorming</h3>
                             </div>
                         </Col>
@@ -51,7 +51,7 @@ const Processes = () => {
                             <div className='d-flex flex-column justify-content-center'>
                                 <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>03.</h1>
                             </div>
-                            <div className='d-flex flex-column justify-content-center text-start border border-2   '>
+                            <div className='d-flex flex-column justify-content-center text-start  w-50  '>
                                 <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>Execution</h3>
                             </div>
                         </Col>
