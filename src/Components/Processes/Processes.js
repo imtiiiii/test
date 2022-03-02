@@ -28,6 +28,23 @@ const Processes = () => {
                         </Col>
 
                     </Row>
+                    {/* 2nd Row */}
+                    <Row className=' d-flex ' style={{ backgroundColor: "#E2EDDF", marginTop: "100px", borderRadius: "20px" }}>
+                        <Col lg={3} className="d-flex justify-content-between ">
+                            <div className='d-flex flex-column justify-content-center border border-2'>
+                                <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>02.</h1>
+                            </div>
+                            <div className='d-flex flex-column justify-content-center border border-2  '>
+                                <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>Brainstorming</h3>
+                            </div>
+                        </Col>
+                        <Col lg={6}>
+                            <div className=' d-flex justify-content-end border border-2' >
+                                <h5>We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones  deated with clients.</h5>
+                            </div>
+                        </Col>
+
+                    </Row>
                 </Container>
             </Container>
         </>
