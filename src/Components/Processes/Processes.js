@@ -11,7 +11,7 @@ const Processes = () => {
                 </div>
                 <Container >
                     {/* this row is only for  01 row */}
-                    <Row className=' d-flex justify-content-between ' style={{ backgroundColor: "#E2EDDF", marginTop: "100px", borderRadius: "20px", border: "2px solid red" }}>
+                    <Row className=' d-flex justify-content-between ' style={{ backgroundColor: "#E2EDDF", marginTop: "100px", borderRadius: "20px" }}>
                         <Col lg={4} className="d-flex justify-content-between  ">
                             <div className='d-flex flex-column justify-content-center '>
                                 <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>01.</h1>
@@ -23,13 +23,13 @@ const Processes = () => {
                         </Col>
                         <Col lg={6} className="">
                             <div className=' d-flex justify-content-end' >
-                                <img alt="img" src={processimg} style={{ marginTop: "-250px", border: "2px solid red" }} className="" />
+                                <img alt="img" src={processimg} style={{ marginTop: "-250px" }} className="" />
                             </div>
                         </Col>
 
                     </Row>
                     {/* 2nd Row */}
-                    <Row className=' d-flex  justify-content-between ' style={{ marginTop: "100px", borderRadius: "20px", border: "2px solid red" }}>
+                    <Row className=' d-flex  justify-content-between ' style={{ marginTop: "80px" }}>
                         <Col lg={4} className="d-flex justify-content-between ">
                             <div className='d-flex flex-column justify-content-center'>
                                 <h1 className=' fw-bold' style={{ color: "#152427", fontSize: "80px" }}>02.</h1>
@@ -43,8 +43,8 @@ const Processes = () => {
                                 <h5 className='fs-5' style={{ color: "#7D8188" }}>We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones  deated with clients.</h5>
                             </div>
                         </Col>
-
                     </Row>
+                    <hr></hr>
                 </Container>
             </Container>
         </>
