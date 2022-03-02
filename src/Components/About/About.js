@@ -8,45 +8,45 @@ import img3 from '../../img/about/Group 1000004124.png'
 const About = () => {
     return (
         <>
-            <Container style={{ margin: "100px auto" }}>
+            <Container style={{ margin: "100px auto", }}>
                 {/* there is two part in section  */}
                 <Row>
                     {/* 1st part */}
-                    <Col lg={8} className="d-none d-lg-block" style={{
-                        position: "relative"
+                    <Col lg={6} className="d-none d-lg-block" style={{
+                        position: "relative",
                     }}>
                         <div >
                             <img alt="background" src={bg} style={{ width: "100%", }} />
                         </div>
                         <div style={{
-                            position: "absolute", top: "20%", left: "10%"
+                            position: "absolute", top: "20%", left: "20%"
 
 
                         }}>
-                            <img alt="img" src={img1} className="rounded-pill" style={{ width: "284px", height: "480px", objectFit: "fill" }} />
+                            <img alt="img" src={img1} className="rounded-pill" style={{ width: "200px", height: "480px", objectFit: "cover" }} />
                         </div>
 
                         <div style={{
                             position: "absolute",
                             top: "10%",
-                            right: "20%"
+                            right: "10%"
 
 
 
                         }}>
-                            <img alt="img" src={img2} className="rounded-pill" style={{ width: "286px", height: "480px", objectFit: "fill" }} />
+                            <img alt="img" src={img2} className="rounded-pill" style={{ width: "200px", height: "480px", objectFit: "cover" }} />
                         </div>
                         <div style={{
                             position: "absolute",
-                            top: "50%",
-                            right: "15%"
+                            bottom: "0px", right: "0px"
+
 
                         }}>
                             <img alt="img" src={img3} className="w-100" />
                         </div>
                     </Col>
                     {/* 2nd part */}
-                    <Col lg={4} sm={12} className="">
+                    <Col lg={6} sm={12} className="">
                         <h5 style={{ color: "#152427" }} className="my-5">ABOUT US</h5>
                         <h2 style={{ color: "#152427" }}>We are an extention of <br /> your creative team</h2>
                         <p style={{ color: "#7D8188" }} className="my-3">At the start of every project, we cusomizea detailed project plan together with you set exectationns ensure alighment and define key milestones and deiverbles.</p>
