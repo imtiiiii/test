@@ -30,7 +30,7 @@ const HeroSection = () => {
                     {/* here i will use css-position property because here i will be using a picture as bg so using position property i can keep 3 images over the bg image */}
                     <Col lg={6} className="px-1" style={{ position: "relative", }} >
                         <div className=" d-flex justify-content-center .align-items-center">
-                            <img alt="bg" src={bgimg} style={{ width: "100%", maxHeight: "100%", border: "1px solid red" }} />
+                            <img alt="bg" src={bgimg} style={{ width: "100%", maxHeight: "100%", }} />
                         </div>
                         <Row>
                             <Col lg={3} md={12} style={{
@@ -43,14 +43,14 @@ const HeroSection = () => {
                             <Col lg={3} style={{
                                 position: "absolute",
                                 top: "20%",
-                                left: "30%"
+                                left: "35%"
                             }} >
                                 <img alt="heroimage" src={img2} style={{ maxWidth: "150px" }} className="d-lg-block d-none" />
                                 <img alt="heroimage" src={img5} style={{ maxWidth: "100px", maxHeight: "200px" }} className="d-lg-none d-block" />
                             </Col>
                             <Col lg={3} style={{
                                 position: "absolute",
-                                top: "10%", left: "60%",
+                                top: "10%", left: "70%",
                             }} >
                                 <img alt="heroimage" src={img3} style={{ maxWidth: "150px" }} className="d-lg-block d-none" />
                                 <img alt="heroimage" src={img6} style={{ maxWidth: "100px", maxHeight: "200px" }} className="d-block d-lg-none" />

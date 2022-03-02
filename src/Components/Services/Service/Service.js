@@ -12,7 +12,7 @@ const Service = (props) => {
                 <div className='' style={{}}>
                     <img alt="service" src={img} style={{ width: "100%" }} />
                 </div>
-                <div className={cnt === 3 ? 'shadow rounded-3 py-4' : "py-4"} >
+                <div className="py-4">
                     <div className='p-4' style={{ color: "#152427", height: "70px" }}>
                         <h6 className='fs-4 fw-bold'>{title}</h6>
                     </div>
