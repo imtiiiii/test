@@ -1,0 +1,12 @@
+@media only screen and (max-width:992px)
+{
+    .test{
+        /* display: none; */
+        
+        position:static !important;
+        
+    }
+    
+
+    
+}

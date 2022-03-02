@@ -6,7 +6,7 @@ import videoButton from '../../img/past projects/video button.png'
 const PastProjects = () => {
     return (
         <>
-            <Container fluid style={{ backgroundColor: "#143C3C" }}>
+            <Container fluid style={{ backgroundColor: "#143C3C" }} className="my-5">
                 <Container className='py-5'>
                     {/* parent div to use flex */}
                     <div className='d-flex my-4' >

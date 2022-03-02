@@ -6,6 +6,8 @@ import Brands from './Components/Brands/Brands';
 import Services from './Components/Services/Services';
 import Processes from './Components/Processes/Processes';
 import PastProjects from './Components/PastProjects/PastProjects';
+import Feature from './Components/Features/Feature';
+import Features from './Components/Features/Features';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Services />
       <Processes />
       <PastProjects />
+      <Features></Features>
     </div>
   );
 }
