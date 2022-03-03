@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container } from 'react-bootstrap';
 import './Feature.css'
 const Feature = (props) => {
@@ -9,10 +9,19 @@ const Feature = (props) => {
     // console.log(cnt);
     // if (cnt === 2) console.log("yes");
     // rounded-circle py-5 d-flex justify-content-center align-items-center
+
+    // using useState to give dynamic classname on mouse enter
+    const [hover, setHover] = useState("zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+    const mouseEnter = (event) => {
+        setHover("shadow  zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+    }
+    const mouseLeave = (event) => {
+        setHover("zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+    }
     return (
         <>
 
-            <Col lg={4} style={{ border: "1.5px solid #CECECE", height: "400px", margin: "100px auto" }} className="rounded-circle py-5 d-flex justify-content-center align-items-center" >
+            <Col lg={4} className={hover} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={{ border: "1.5px solid #CECECE", height: "400px", margin: "100px auto" }}  >
                 <Container className=' '>
                     <img alt="logo" src={props.item.logo} className="my-4" />
                     <h4 className='my-3'>{props.item.title}</h4>
