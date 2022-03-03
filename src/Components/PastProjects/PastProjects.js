@@ -9,8 +9,10 @@ const PastProjects = () => {
             <Container fluid style={{ backgroundColor: "#143C3C" }} className="my-5">
                 <Container className='py-5'>
                     {/* parent div to use flex */}
-                    <div className='d-flex my-4' >
-                        <h4 className='fs-1 fw-bold w-50' style={{ color: "#E7F9F9" }}>A quick glance of our <br /> past projects <span style={{ marginRight: "20px", backgroundColor: "#83A17D;" }}>___</span> </h4>
+                    <div className='d-lg-flex my-4' >
+                        {/* one part */}
+                        <h4 className='fs-1 fw-bold w-50' style={{ color: "#E7F9F9" }}>A quick glance of our <br /> past projects <span style={{ marginRight: "20px", }}>___</span> </h4>
+                        {/* another part */}
                         <div className='w-50'>
                             <h5 className='fs-5 mb-5' style={{ color: "#6A8383" }}>Are you strive for the fast project simplicity and clarity. Great design is born of those two things.
                             </h5>

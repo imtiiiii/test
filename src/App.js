@@ -18,8 +18,8 @@ function App() {
       <Brands />
       <Services />
       <About />
-      {/* <Processes /> */}
-      {/* <PastProjects /> */}
+      <Processes />
+      <PastProjects />
       {/* <Features></Features> */}
       {/* <Blogs /> */}
     </div>
