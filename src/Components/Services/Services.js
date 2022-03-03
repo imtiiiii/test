@@ -27,8 +27,8 @@ const Services = () => {
     ];
     return (
         <>
-            <Container className='my-5' >
-                <Container className=" my-5 d-flex justify-content-between" >
+            <Container className='' style={{ margin: "200px auto" }} >
+                <Container className=" my-5  d-flex justify-content-between" >
                     <div style={{ color: "#152427" }}>
                         <h6 className='fs-4'> <span style={{ color: "#152427", fontSize: "30px", marginRight: "10px" }}>-</span> Our Services</h6>
                         <h6 className='fs-2'>We offer a wide range of <br /> design services <span style={{ color: "#152427", fontSize: "30px", marginLeft: "10px" }}>____</span></h6>
