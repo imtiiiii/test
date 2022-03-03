@@ -26,7 +26,7 @@ const PastProjects = () => {
                     </div>
                     {/* this div for the video part */}
                     <div className='my-5' style={{ position: "relative" }}>
-                        <img alt="video-button " src={videoButton} style={{ position: "absolute", top: "50%", left: "50%" }} />
+                        <img alt="video-button " src={videoButton} style={{ position: "absolute", top: "40%", bottom: "40%", left: "50%" }} />
                         <img alt="projects" src={projectVideo} style={{ width: "100%" }} />
                     </div>
                 </Container>

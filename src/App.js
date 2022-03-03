@@ -6,7 +6,7 @@ import Brands from './Components/Brands/Brands';
 import Services from './Components/Services/Services';
 import Processes from './Components/Processes/Processes';
 import PastProjects from './Components/PastProjects/PastProjects';
-import Feature from './Components/Features/Feature';
+
 import Features from './Components/Features/Features';
 import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
