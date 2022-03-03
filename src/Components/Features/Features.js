@@ -24,7 +24,7 @@ const Features = () => {
 
     return (
         <>
-            <Container className='text-center my-5 ' style={{ height: "100%" }}>
+            <Container className='text-center  ' style={{ height: "100%", margin: "100px auto" }}>
                 <h1 style={{ color: "#152427" }} className="fs-1 fw-bold my-5">Share the feature that <br /> helps your customer</h1>
                 <h6 style={{ color: "#7D8188", width: "50%", margin: "40px auto" }}>You already know that the customer experience doesn't end with a sale — it's an ongoing work in progress that companies should be constantly seeking to improve and iterate on.</h6>
                 <Row className='' >

@@ -20,8 +20,8 @@ function App() {
       <About />
       <Processes />
       <PastProjects />
-      {/* <Features></Features> */}
-      {/* <Blogs /> */}
+      <Features></Features>
+      <Blogs />
     </div>
   );
 }
