@@ -39,7 +39,7 @@ const Services = () => {
                     </div>
                 </Container>
                 <Container>
-                    <Row>
+                    <Row className=''>
                         {
                             services.map(service => <Service item={service} key={cnt} count={cnt++}  ></Service>)
                         }

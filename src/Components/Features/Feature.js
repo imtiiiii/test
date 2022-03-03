@@ -11,18 +11,18 @@ const Feature = (props) => {
     // rounded-circle py-5 d-flex justify-content-center align-items-center
 
     // using useState to give dynamic classname on mouse enter
-    const [hover, setHover] = useState("zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+    const [hover, setHover] = useState("zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
     const mouseEnter = (event) => {
-        setHover("shadow  zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+        setHover("shadow  zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
     }
     const mouseLeave = (event) => {
-        setHover("zoom rounded-circle py-5 d-flex justify-content-center align-items-center");
+        setHover("zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
     }
     return (
         <>
 
-            <Col lg={4} className={hover} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={{ border: "1.5px solid #CECECE", height: "400px", margin: "100px auto" }}  >
-                <Container className=' '>
+            <Col lg={3} className={hover} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={{ border: "1.5px solid #CECECE", height: "350px", margin: "100px auto" }}  >
+                <Container className='px-2 '>
                     <img alt="logo" src={props.item.logo} className="my-4" />
                     <h4 className='my-3'>{props.item.title}</h4>
                     <h6 className=''>{props.item.details}</h6>

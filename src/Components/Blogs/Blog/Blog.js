@@ -8,12 +8,12 @@ const Blog = (props) => {
     const date = props.item.date;
     const cnt = props.count;
     // using useState to give dynamic classname on mouse enter
-    const [hover, setHover] = useState("my-5 rounded-3 zoom");
+    const [hover, setHover] = useState("my-5 rounded-3 zoom mx-auto");
     const mouseEnter = (event) => {
-        setHover("shadow rounded-3 my-5 zoom");
+        setHover("shadow rounded-3 my-5 zoom mx-auto");
     }
     const mouseLeave = (event) => {
-        setHover(" my-5 rounded-3 zoom");
+        setHover(" my-5 rounded-3 zoom mx-auto");
     }
     return (
         <>

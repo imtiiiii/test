@@ -7,12 +7,12 @@ const Service = (props) => {
     const details = props.item.details;
     const cnt = props.count;
     // using useState to give dynamic classname on mouse enter
-    const [hover, setHover] = useState("zoom");
+    const [hover, setHover] = useState("zoom mx-1 mx-auto ");
     const mouseEnter = (event) => {
-        setHover("shadow-lg rounded-3 zoom");
+        setHover("shadow-lg rounded-3 zoom mx-auto");
     }
     const mouseLeave = (event) => {
-        setHover("zoom");
+        setHover("zoom mx-auto");
     }
     // console.log(hover);
     return (
