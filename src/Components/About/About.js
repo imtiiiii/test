@@ -47,7 +47,7 @@ const About = () => {
                     </Col>
                     {/* 2nd part */}
                     <Col lg={6} sm={12} className="">
-                        <h5 style={{ color: "#152427" }} className="my-5">ABOUT US</h5>
+                        <h5 style={{ color: "#152427" }} className="my-5"> <span style={{ marginRight: "20px" }}>__</span>ABOUT US</h5>
                         <h2 style={{ color: "#152427" }}>We are an extention of <br /> your creative team</h2>
                         <p style={{ color: "#7D8188" }} className="my-3">At the start of every project, we cusomizea detailed project plan together with you set exectationns ensure alighment and define key milestones and deiverbles.</p>
                         <div className='d-flex ' style={{ borderBottom: "1px solid #83A17D" }}>

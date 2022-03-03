@@ -6,8 +6,8 @@ const Processes = () => {
         <>
             <Container className=' ' style={{ marginTop: "200px", marginBottom: "200px" }}>
                 <div className='mb-5'>
-                    <h6 className='fs-6 my-4'>OUR PROCESS</h6>
-                    <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>A simple ,yet effective three step process</h3>
+                    <h6 className='fs-6 my-4'> <span style={{ marginRight: "10px" }}>__</span> OUR PROCESS</h6>
+                    <h3 className='fs-4 fw-bold' style={{ color: "#152427" }}>A simple ,yet effective three step process <span style={{ marginLeft: "10px" }}>____</span> </h3>
                 </div>
                 <Container >
                     {/* this row is only for  01 row */}

@@ -13,16 +13,16 @@ const Feature = (props) => {
     // using useState to give dynamic classname on mouse enter
     const [hover, setHover] = useState("zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
     const mouseEnter = (event) => {
-        setHover("shadow  zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
+        setHover("shadow  zoom rounded-circle py-2 d-flex justify-content-center align-items-center mx-auto");
     }
     const mouseLeave = (event) => {
-        setHover("zoom rounded-circle py-5 d-flex justify-content-center align-items-center mx-auto");
+        setHover("zoom rounded-circle py-2 d-flex justify-content-center align-items-center mx-auto");
     }
     return (
         <>
 
             <Col lg={3} className={hover} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={{ border: "1.5px solid #CECECE", height: "350px", margin: "100px auto" }}  >
-                <Container className='px-2 '>
+                <Container className=' '>
                     <img alt="logo" src={props.item.logo} className="my-4" />
                     <h4 className='my-3'>{props.item.title}</h4>
                     <h6 className=''>{props.item.details}</h6>

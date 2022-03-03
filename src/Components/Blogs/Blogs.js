@@ -31,8 +31,8 @@ const Blogs = () => {
             <Container className='my-5' >
                 <Container className=" my-5 d-flex justify-content-between" >
                     <div style={{ color: "#152427" }}>
-                        <h6 className='fs-6'>BLOG & ARTICLES</h6>
-                        <h6 className='fs-2'>Take a look at our latest <br /> articles and resources</h6>
+                        <h6 className='fs-6'> <span style={{ marginRight: "10px" }}>__</span> BLOG & ARTICLES</h6>
+                        <h6 className='fs-2'>Take a look at our latest <br /> articles and resources <span style={{ marginLeft: "10px" }}>____</span></h6>
                     </div>
                     <div className='d-flex justify-content-end align-items-end  w-50 '>
                         <h6 className='fs-5' style={{ color: "#7D8188" }}>The best agency are the ones ideated with clients. we corporate your ideas with memorable</h6>
