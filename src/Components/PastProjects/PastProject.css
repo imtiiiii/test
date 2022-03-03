@@ -1,0 +1,9 @@
+.video-button{
+    width: 100px;
+}
+@media only screen and (max-width:992px){
+    .video-button{
+       /* border:2px solid red; */
+       width: 50px;
+    }
+}

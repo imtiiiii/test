@@ -1,4 +1,5 @@
 import React from 'react';
+import './PastProject.css'
 import { Container } from 'react-bootstrap';
 import leftArrow from '../../img/past projects/left arrow.png'
 import projectVideo from '../../img/past projects/project.png'
@@ -6,6 +7,7 @@ import videoButton from '../../img/past projects/video button.png'
 const PastProjects = () => {
     return (
         <>
+
             <Container fluid style={{ backgroundColor: "#143C3C" }} className="my-5">
                 <Container className='py-5'>
                     {/* parent div to use flex */}
@@ -17,7 +19,7 @@ const PastProjects = () => {
                             <h5 className='fs-5 mb-5' style={{ color: "#6A8383" }}>Are you strive for the fast project simplicity and clarity. Great design is born of those two things.
                             </h5>
                             {/* browse all projects + left arrow  */}
-                            <div className='d-flex'>
+                            <div className='d-lg-flex'>
                                 <h5 className='' style={{ color: "#fff", width: "40%" }}>Browse all Projects</h5>
                                 {/* left arrow div to use flex perfectly */}
                                 <div className="" style={{ width: "60%" }}>
@@ -27,9 +29,9 @@ const PastProjects = () => {
                         </div>
                     </div>
                     {/* this div for the video part */}
-                    <div className='my-5' style={{ position: "relative" }}>
-                        <img alt="video-button " src={videoButton} style={{ position: "absolute", top: "40%", bottom: "40%", left: "50%" }} />
-                        <img alt="projects" src={projectVideo} style={{ width: "100%" }} />
+                    <div className='my-5 ' style={{ position: "relative", width: "100%", height: "100%" }}>
+                        <img alt="video-button " src={videoButton} style={{ position: "absolute", top: "40%", left: "50%" }} className=" video-button" />
+                        <img alt="projects" src={projectVideo} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                     </div>
                 </Container>
             </Container>
