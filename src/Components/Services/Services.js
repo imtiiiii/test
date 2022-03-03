@@ -35,7 +35,7 @@ const Services = () => {
                     </div>
                     <div className='d-flex justify-content-end align-items-end  w-50 '>
                         <img alt="leftarrow" width={54} height={54} src={leftarrow} />
-                        <img alt="rightarrow" width={54} height={54} src={rightarrow} />
+                        <img alt="rightarrow" width={54} height={54} src={rightarrow} className="mx-2" />
                     </div>
                 </Container>
                 <Container>
